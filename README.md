@@ -17,3 +17,4 @@ The texture assets ‘Button_Hovered.fw.png’, ‘Button_Normal.fw.png’, ‘B
 * The maim menu will only appear if the game is started from the ‘Main’ level.
 * If you’re testing the timing system, I’d recommend setting the record for the first level with collectibles that are spaced out across the map, otherwise it’ll be hard to beat the time set.
 * The operations making the timing and collectible systems work are currently within the FirstPersonCharacter blueprint for ease of access to the relevant variables, but I think I can make them accessible to the rest of the game (by using an EventTick to keep duplicate variables up to date in the level blueprint using a cast to the first person character.)
+* Pause menu is opened using Left Shift
